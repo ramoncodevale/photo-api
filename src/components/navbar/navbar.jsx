@@ -7,7 +7,7 @@ import { FaCameraRetro } from "react-icons/fa";
 export function NavBar() {
     return (
         <header>
-            <FaCameraRetro color='#000' fontSize={50} />
+            <FaCameraRetro color='#fff' fontSize={50} />
         </header>
     )
 }

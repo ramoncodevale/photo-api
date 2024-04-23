@@ -2,13 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--color-text-primary);
 }
 
 .container-input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background-color: var(--background-input);
     width: 500px;
     height: 50px;
     border-radius: 4px;
@@ -16,7 +17,7 @@
 }
 
 .container-input button {
-    background-color: #171717;
+    background-color: var(--color-text-secundary);
     width: 50px;
     height: 50px;
     border: 2px solid var(--color-text-primary);
@@ -45,3 +46,10 @@ input::placeholder {
     font-weight: 700;
     padding-right: 10px;
 }
+
+@media screen and (max-width: 767px){
+    .container-input {
+        width: 300px;
+        height: 50px;
+    }
+} 

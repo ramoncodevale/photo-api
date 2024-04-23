@@ -7,11 +7,12 @@
 
 :root {
   --background-color: #1c1917;
+  --background-input: #6b7280;
   --color-text-primary: #fff;
   --color-text-secundary: #000;
 }
 
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--color-text-primary);
 }
